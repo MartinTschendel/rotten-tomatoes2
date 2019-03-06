@@ -14,4 +14,6 @@ The html and ipynd files represent the status of this project.
 
 2019-03-03: Used `request` to get html content of the webpage of the first movie in df_list. Used beautiful soup to get the title and the genre of this movie.
 
-Next: Try to get the director and the runtime of the movie.
+2019-03-04: Used beautiful soup to get the director of this movie.
+
+Next: Try to get the runtime of the movie.

@@ -19,3 +19,5 @@ The html and ipynd files represent the status of this project.
 2019-03-06: Used beautiful soup to get the runtime of this movie.
 
 Next: Generate a dataframe with these four information pieces of all 100 movies.
+
+2019-03-07：Just figured out that the position of the runtime of the 100 movie in each html is different, that's why I have to rearange the beautifulsoup code 

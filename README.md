@@ -21,3 +21,10 @@ The html and ipynd files represent the status of this project.
 Next: Generate a dataframe with these four information pieces of all 100 movies.
 
 2019-03-07：Just figured out that the position of the runtime of the 100 movie in each html is different, that's why I have to rearange the beautifulsoup code 
+
+2019-03-09: Finally found a solution, what makes it possible to collect the runtime data from the movies, even if the position is different.<br>
+This peace of code made it possible: <br>
+`runtime = soup.find_all('ul')[13].find_all('li')[5:8]`
+`runtime = soup.find_all('time')[-1].get_text().strip()[:-len(' minutes')]`
+
+2019-03-09: in addition to the ipynb and html files, I uploaded a csv file, what contains the collected information from the films.
